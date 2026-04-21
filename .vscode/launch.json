@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AppBodeguitaApplication<app-bodeguita>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.fifo.app_bodeguita.AppBodeguitaApplication",
+            "projectName": "app-bodeguita",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
