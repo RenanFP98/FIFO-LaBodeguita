@@ -8,12 +8,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Producto {
     @DocumentId
-    private String id;
+    private String codigo;      // Usamos el código de barras como ID del documento
     private String nombre;
-    private String codigoBarras;    // Será el que mande el iPhone
-    private int cantidad;
-    private String fechaIngreso;    // Fecha actual
-    private String fechaVencimiento; 
-    private String tipo;            // "LOTE" o "PERECIBLE"
-    private String usuarioId;       // <--- Aquí guardaremos el ID de la flecha roja más adelante
+    private int cantidad;       // Suma total de todos los lotes
+    private Object ultima_actualizacion;
 }
